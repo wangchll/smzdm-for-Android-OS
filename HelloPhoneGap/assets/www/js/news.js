@@ -31,24 +31,14 @@ var newsCtrl = {
 		
 		if(me.myScroll) {
 			me.myScroll.refresh();
+			me.myScroll.scrollTo(0, 0);
 		} else {
 			me.myScroll = new iScroll('Wrap');
 		}
 	},
-	resetScroll: function() {
-		var me = this,
-			myScroll = me.myScroll;
-		
-		if(myScroll) {
-			myScroll.scrollTo(0, 0);
-		}
-	},
 	loadNews: function() {
 		var me = this;
-		
-		//复位滚动条
-		me.resetScroll();
-		
+				
 		//显示加载图标
 		loadingCtrl.show();
 		

@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<title>什么值得买</title>
+<title>什么值得购买</title>
 <link rel="stylesheet"  href="css/jquery.mobile-1.0.min.css" />
 <link rel="stylesheet" href="css/news.css" />
 
@@ -18,7 +18,7 @@
 </head>
 <body>
 	<div class="header ui-bar-a">
-		<h1>什么值得买</h1>
+		<h1>什么值得购买</h1>
 		<span class="refresh ui-icon ui-icon-shadow" id="Refresh"></span>
 	</div>
 	<div id="Wrap" class="wrap">
